@@ -1,0 +1,85 @@
+/*~~~~~~~~~~~ Stylesheet ~~~~~~~~~~~~~*/
+
+#mycenter {
+    margin: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: royalblue;
+}
+
+body {
+	background-color: papayawhip;
+    text-align: center;
+}
+
+hr {
+    width: 400px;
+}
+
+h1 {
+	color: royalblue;
+    font-size: 48px;
+}
+
+button {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    padding: 10px 10px;
+    color: royalblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+#demo2 {
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+#custom_fileupload {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-radius: 8px;
+    background-color: white;
+    border: none;
+    padding: 10px 10px;
+    color: royalblue;
+    font-size: 15px;
+    text-align: center;
+}
+
+#wordlist {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: dodgerblue;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+table {
+    border: none;
+    border-color: papayawhip;
+    empty-cells: hide;
+}
+
+td {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
