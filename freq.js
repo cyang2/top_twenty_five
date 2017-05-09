@@ -15,13 +15,13 @@ function topTwentyFive(string) {
     var dict = {};
     var ordered = [];
 
-    for(i = 0; i < words.length; i++) {
+    for(var i = 0; i < words.length; i++) {
         if (words[i].length < 4) words[i] = words[i];
         else if (words[i].match("thee|this|sing|ring|bring|come|have|really")) words[i] = words[i];
         else words[i] = getStem(words[i]);
     }
 
-    for(i = 0; i < words.length; i++) {
+    for(var i = 0; i < words.length; i++) {
         var curr_word = words[i];
         var word_exists;
         var word_index;
